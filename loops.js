@@ -25,4 +25,5 @@ function doWhileLoop(array) {
   do {
     array.shift;
   } while (array.length > 0 && maybeTrue());
+  return array;
 }
