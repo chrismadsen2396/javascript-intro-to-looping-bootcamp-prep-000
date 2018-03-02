@@ -23,7 +23,9 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    array.slice(0,array.length - 2)
+    console.log[...array];
+    array.pop;
+    console.log[...array];
   } while (array.length >= -1 && maybeTrue());
   return array;
 }
